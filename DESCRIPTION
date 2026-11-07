@@ -1,7 +1,7 @@
 Package: behaviorchange
 Type: Package
 Title: Tools for Behavior Change Researchers and Professionals
-Version: 26.11.0
+Version: 26.11.1
 Authors@R: c(
     person(given = "Gjalt-Jorn",
            family = "Peters",
@@ -63,7 +63,7 @@ Suggests: ggdist, ggtext, htmltools, kableExtra, openxlsx, patchwork
 VignetteBuilder: knitr
 Config/roxygen2/version: 8.1.1
 NeedsCompilation: no
-Packaged: 2026-11-05 17:01:47 UTC; gjalt
+Packaged: 2026-11-07 09:52:44 UTC; gj
 Author: Gjalt-Jorn Peters [aut, cre] (ORCID:
     <https://orcid.org/0000-0002-0336-9589>),
   Rik Crutzen [ctb] (ORCID: <https://orcid.org/0000-0002-3731-6610>),

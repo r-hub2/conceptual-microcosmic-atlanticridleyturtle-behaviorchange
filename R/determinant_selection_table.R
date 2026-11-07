@@ -241,6 +241,14 @@ determinant_selection_table <-  function(data,
 
 ###-----------------------------------------------------------------------------
 
+getPartialsPath <-
+  function(filename) {
+    return(
+      system.file("partials", filename,
+                  package="behaviorchange")
+    );
+  }
+
 #' @rdname potential_for_change
 #' @export
 determinantSelectionTable_partial <- function(x,
@@ -257,8 +265,7 @@ determinantSelectionTable_partial <- function(x,
       partialFile;
   } else {
     rmdPartialFilename <-
-      system.file("partials", "_determinantSelectionTable_partial.Rmd",
-                  package="behaviorchange");
+      getPartialsPath("_determinantSelectionTable_partial.Rmd");
   }
 
   rmdpartials::partial(rmdPartialFilename);

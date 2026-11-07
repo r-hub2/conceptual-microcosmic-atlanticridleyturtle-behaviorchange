@@ -16,8 +16,7 @@ googleSheetsURL <-
 cat(
   behaviorchange::complecs(
     readRDS(
-      system.file(package="behaviorchange",
-        "extdata",
+      behaviorchange::getDataPath(
         "COMPLECS-spec-example.Rds"
       )
     ),
